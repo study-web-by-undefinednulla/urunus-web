@@ -1,0 +1,136 @@
+[2022-01-16 20:27:20.213] [exthost] [info] Extension host with pid 79122 started
+[2022-01-16 20:27:20.441] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-01-16 20:27:20.613] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-16 20:27:20.626] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-16 20:27:20.634] [exthost] [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: true, activationEvent: '*'
+[2022-01-16 20:27:20.654] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+[2022-01-16 20:27:20.736] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-01-16 20:27:20.767] [exthost] [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: true, activationEvent: '*'
+[2022-01-16 20:27:21.617] [exthost] [info] ExtensionService#_doActivateExtension hoovercj.vscode-power-mode, startup: true, activationEvent: '*'
+[2022-01-16 20:27:21.635] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*', root cause: ms-vsliveshare.vsliveshare-audio
+[2022-01-16 20:27:22.074] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-01-16 20:27:22.083] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: true, activationEvent: '*'
+[2022-01-16 20:27:22.085] [exthost] [info] ExtensionService#_doActivateExtension peakchen90.vue-beautify, startup: true, activationEvent: '*'
+[2022-01-16 20:27:22.100] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: true, activationEvent: '*'
+[2022-01-16 20:27:22.781] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-01-16 20:27:22.899] [exthost] [error] Activating extension peakchen90.vue-beautify failed due to an error:
+[2022-01-16 20:27:22.899] [exthost] [error] TypeError: vscode.window.showWarningMessage is not a constructor
+    at activate (/Users/ngocvuong/.vscode/extensions/peakchen90.vue-beautify-2.0.4/extension.js:15:5)
+    at Function._callActivateOptional (/private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:15293)
+    at Function._callActivate (/private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:14966)
+    at /private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:13144
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Promise.all (index 10)
+    at async Promise.all (index 0)
+[2022-01-16 20:27:23.115] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-01-16 20:27:30.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:27:30.454] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:27:30.458] [exthost] [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:27:30.665] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:27:30.977] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-16 20:27:31.052] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-16 20:27:31.061] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare-audio, startup: true, activationEvent: '*'
+[2022-01-16 20:27:31.446] [exthost] [info] Eager extensions activated
+[2022-01-16 20:28:02.517] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-16 20:28:02.535] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-16 20:28:02.638] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-16 20:30:01.156] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-16 20:30:04.155] [exthost] [info] Extension host with pid 86505 started
+[2022-01-16 20:30:04.155] [exthost] [info] Skipping acquiring lock for /Users/ngocvuong/Downloads/Uranus Website/~/root/User/workspaceStorage/ce6fc6eaf5c4ae24e5f9d90d30655da7.
+[2022-01-16 20:30:04.246] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-01-16 20:30:04.258] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-16 20:30:04.261] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-16 20:30:04.264] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2022-01-16 20:30:04.269] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: true, activationEvent: '*'
+[2022-01-16 20:30:04.551] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2022-01-16 20:30:04.557] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: true, activationEvent: '*'
+[2022-01-16 20:30:06.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-01-16 20:30:06.169] [exthost] [info] Extension host with pid 79122 exiting with code 0
+[2022-01-16 20:30:07.794] [exthost] [error] Activating extension ms-vsliveshare.vsliveshare failed due to an error:
+[2022-01-16 20:30:07.794] [exthost] [error] Error: Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.dylib could not be found.
+If this is a self-contained application, that library should exist in [/Users/ngocvuong/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5242/dotnet_modules/].
+If this is a framework-dependent application, install the runtime in the global location [/usr/local/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].
+
+The .NET Core runtime can be found at:
+  - https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=osx.10.17-x64
+    at ChildProcess.<anonymous> (/Users/ngocvuong/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.5242/src/abstractions/node/agent.ts:291:32)
+    at ChildProcess.emit (events.js:327:22)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Socket.<anonymous> (internal/child_process.js:439:11)
+    at Socket.emit (events.js:315:20)
+    at Pipe.<anonymous> (net.js:673:12)
+[2022-01-16 20:30:08.082] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.100] [exthost] [info] ExtensionService#_doActivateExtension be5invis.vscode-custom-css, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.131] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.145] [exthost] [info] ExtensionService#_doActivateExtension gencer.html-slim-scss-css-class-completion, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.628] [exthost] [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:30:08.913] [exthost] [info] ExtensionService#_doActivateExtension hoovercj.vscode-power-mode, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.931] [exthost] [info] ExtensionService#_doActivateExtension oderwat.indent-rainbow, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.932] [exthost] [info] ExtensionService#_doActivateExtension peakchen90.vue-beautify, startup: false, activationEvent: '*'
+[2022-01-16 20:30:08.942] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: '*'
+[2022-01-16 20:30:09.986] [exthost] [error] Activating extension peakchen90.vue-beautify failed due to an error:
+[2022-01-16 20:30:09.986] [exthost] [error] TypeError: vscode.window.showWarningMessage is not a constructor
+    at activate (/Users/ngocvuong/.vscode/extensions/peakchen90.vue-beautify-2.0.4/extension.js:15:5)
+    at Function._callActivateOptional (/private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:15293)
+    at Function._callActivate (/private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:14966)
+    at /private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:13144
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Promise.all (index 0)
+    at v.$activate (/private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:100:20806)
+[2022-01-16 20:30:10.013] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-01-16 20:30:10.186] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.live-sass, startup: false, activationEvent: 'workspaceContains:**/*.s[ac]ss'
+[2022-01-16 20:30:11.894] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 914
+[2022-01-16 20:30:13.144] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-16 20:30:13.157] [exthost] [info] Eager extensions activated
+[2022-01-16 20:30:13.158] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:30:13.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:30:13.178] [exthost] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-16 20:30:16.027] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 918
+[2022-01-16 20:30:21.121] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1237
+[2022-01-16 20:30:26.224] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1607
+[2022-01-16 20:30:31.322] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1607
+[2022-01-16 20:30:36.416] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1608
+[2022-01-16 20:30:40.481] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-16 20:30:40.489] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-16 20:30:40.502] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-01-16 20:30:41.513] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:31:26.605] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1608
+[2022-01-16 20:31:31.706] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:31:36.810] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1611
+[2022-01-16 20:31:41.911] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1610
+[2022-01-16 20:31:49.715] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1608
+[2022-01-16 20:32:02.246] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:32:07.330] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:32:12.461] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:32:17.564] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:32:23.030] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:32:28.110] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:32:42.574] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:33:12.672] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:33:17.762] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:33:22.859] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:33:27.935] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:33:33.010] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1609
+[2022-01-16 20:33:38.097] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1608
+[2022-01-16 20:33:43.213] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1620
+[2022-01-16 20:33:48.299] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1628
+[2022-01-16 20:33:53.377] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1657
+[2022-01-16 20:33:58.455] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1662
+[2022-01-16 20:34:03.548] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1672
+[2022-01-16 20:34:08.636] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1672
+[2022-01-16 20:34:12.549] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-01-16 20:34:12.571] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-01-16 20:34:14.993] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1676
+[2022-01-16 20:34:21.678] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1677
+[2022-01-16 20:34:26.769] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1678
+[2022-01-16 20:34:31.852] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1678
+[2022-01-16 20:34:36.932] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1678
+[2022-01-16 20:34:42.110] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1678
+[2022-01-16 20:34:46.189] [exthost] [error] Error: EROFS: read-only file system, open '/private/var/folders/9q/hmnxlmnd7rbfzdl5wb1k5rb00000gn/T/AppTranslocation/E5791ABB-B6CC-477F-B6EA-BDC70B340EE2/d/Visual Studio Code.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench.ebb4fc6f-10db-4d14-988d-e2ccc4b57887.bak-custom-css' extension.installCustomCSS {"value":"be5invis.vscode-custom-css","_lower":"be5invis.vscode-custom-css"}
+[2022-01-16 20:34:47.200] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1679
+[2022-01-16 20:34:52.288] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1679
+[2022-01-16 20:34:57.370] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1678
+[2022-01-16 20:35:02.450] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1678
+[2022-01-16 20:35:07.478] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-01-16 20:35:07.504] [exthost] [info] Extension host with pid 86505 exiting with code 0
