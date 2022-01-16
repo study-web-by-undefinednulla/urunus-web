@@ -1,0 +1,27 @@
+html {
+    font-family: $font;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: var(--background);
+    color: var(--text-light);
+}
+
+.button {
+    padding: 27px 45px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    &--primary {
+        background-color: #377dff1e;
+        color: #377dff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1;
+    }
+}
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
