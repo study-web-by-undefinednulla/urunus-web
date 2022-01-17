@@ -135,7 +135,7 @@
         &__router {
             display: none;
         }
-        &-form {
+        &__form {
             max-width: 100%;
         }
         &__search {
@@ -164,12 +164,9 @@
     }
 }
 
-main {
-    display: none !important;
-}
-// footer {
-//     display: none;
-// }
-.hero {
+.feature,
+.companies,
+.newest,
+.awesome {
     display: none;
 }
