@@ -69,5 +69,13 @@ html {
         &:hover {
             transform: translateY(0);
         }
+        &--secondary {
+            font-size: 12px;
+            transform: translateX(30px);
+            &::after {
+                width: 15px;
+                left: -30px;
+            }
+        }
     }
 }

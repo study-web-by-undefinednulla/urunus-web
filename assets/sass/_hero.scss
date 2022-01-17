@@ -65,6 +65,7 @@
 }
 @include maxW(1024px) {
     .hero {
+        padding-top: 60px;
         gap: 60px;
         &__content {
             .heading {
@@ -103,6 +104,7 @@
                 flex-direction: column;
                 gap: 10px;
                 input {
+                    width: 100%;
                     border-radius: 5px;
                     padding: 20px;
                     font-size: 12px;

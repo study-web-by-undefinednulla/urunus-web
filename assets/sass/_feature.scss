@@ -33,3 +33,36 @@
         }
     }
 }
+@include maxW(1024px) {
+    .feature {
+        &__content {
+            .heading {
+                font-size: 42px;
+            }
+            .paragraph {
+                p {
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+@include maxW(475px) {
+    .feature {
+        padding: 20px 0;
+        &__content {
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 32px;
+            .heading {
+                font-size: 26px;
+                margin-bottom: 25px;
+            }
+            .paragraph {
+                max-width: 100%;
+            }
+        }
+    }
+}

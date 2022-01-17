@@ -32,3 +32,38 @@
         }
     }
 }
+
+@include maxW(1024px) {
+    .awesome {
+        &__content {
+            .heading {
+                font-size: 42px;
+            }
+            .paragraph {
+                font-size: 14px;
+            }
+        }
+        &__sub--content {
+            max-width: 360px;
+        }
+    }
+}
+
+@include maxW(475px) {
+    .awesome {
+        padding: 70px 0;
+        &__sub--content {
+            display: none;
+        }
+        &__content {
+            .heading {
+                font-size: 26px;
+                margin-bottom: 25px;
+            }
+            .paragraph {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
