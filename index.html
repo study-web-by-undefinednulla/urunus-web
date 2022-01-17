@@ -8,6 +8,10 @@
     <!-- links ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- link css owl slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <!-- link css files -->
     <link rel="stylesheet" href="./assets/css/app.min.css">
     <title>Document</title>
@@ -49,8 +53,151 @@
             </div>
         </div>
     </header>
-    <section></section>
-    <footer></footer>
+    <main class="container">
+        <section class="feature">
+            <div class="feature__content">
+                <h2 class="heading">This is an Awesome <br>
+                    Feature Element</h2>
+                <div class="paragraph">
+                    <p>Now you can build fast your awesome
+                        website with these ready-to-use blocks,
+                        elements and sections.</p>
+                    <a class="button--secondary" href="#!">Learn more</a>
+                </div>
+            </div>
+            <div class="feature__sub--content">
+                <img src="./assets/images/banner.jpg" alt="">
+            </div>
+        </section>
+        <section class="companies">
+            <div class="companies__item">
+                <img src="./assets/images/companies/icon1.svg" alt="">
+            </div>
+            <div class="companies__item">
+                <img src="./assets/images/companies/icon2.svg" alt="">
+            </div>
+            <div class="companies__item">
+                <img src="./assets/images/companies/icon3.svg" alt="">
+            </div>
+            <div class="companies__item">
+                <img src="./assets/images/companies/icon4.svg" alt="">
+            </div>
+            <div class="companies__item">
+                <img src="./assets/images/companies/icon5.svg" alt="">
+            </div>
+            <div class="companies__item">
+                <img src="./assets/images/companies/icon6.svg" alt="">
+            </div>
+        </section>
+        <section class="newest">
+            <div class="newest__content">
+                <h3 class="heading">Newest way to grow.</h3>
+                <div class="paragraphs">
+                    <p>Tellus in metus vulputate eu scelerisque felis imperdiet proin. Adipiscing diam donec adipiscing
+                        tristique risus nec
+                        feugiat. Nascetur ridiculus mus mauris vitae ultricies leo.</p>
+                    <p>Fringilla ut morbi tincidunt augue interdum velit euismod. Sed augue lacus viverra vitae congue
+                        eu consequat ac felis.
+                        Pulvinar etiam non quam lacus. Consectetur adipiscing elit duis tristique sollicitudin nibh sit
+                        amet.</p>
+                </div>
+                <a href="" class="button--secondary">Learn more</a>
+            </div>
+            <div class="newest__sub--content">
+                <div class="newest__slider owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="./assets/images/banner.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/banner.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./assets/images/banner.jpg" alt="">
+                    </div>
+                </div>
+                <div class="newest__button">
+                    <div class="slider--previous">
+                        <ion-icon name="arrow-back-outline"></ion-icon>
+                    </div>
+                    <div class="slider--next">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="awesome">
+            <div class="awesome__sub--content">
+                <img src="./assets/images/banner.jpg" alt="">
+            </div>
+            <div class="awesome__content">
+                <h3 class="heading">This is an Awesome
+                    Feature Element</h3>
+                <p class="paragraph">Now you can build fast your awesome website with
+                    these ready-to-use blocks, elements and sections.</p>
+                <button class="button button--primary">Get Started</button>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__top">
+            <div class="footer__form">
+                <form class="footer__search" action="#!">
+                    <div class="heading">Receive latest news</div>
+                    <div class="group-item">
+                        <input type="text" name="search" id="search" placeholder="Enter your e-mail address">
+                        <button class="button button--primary">Get Started</button>
+                    </div>
+                    <p class="text">By entering your e-mail address you confirming that you're
+                        agree to subscribe to our newsletter.</p>
+                </form>
+            </div>
+            <div class="footer__router">
+                <div class="column">
+                    <div class="column__heading">First Column</div>
+                    <a class="column__item" href="#!">First Link</a>
+                    <a class="column__item" href="#!">Second Link</a>
+                    <a class="column__item" href="#!">Third Link</a>
+                    <a class="column__item" href="#!">Fourth Link</a>
+                    <a class="column__item" href="#!">Fifth Link</a>
+                </div>
+                <div class="column">
+                    <div class="column__heading">Second Column</div>
+                    <a class="column__item" href="#!">First Link</a>
+                    <a class="column__item" href="#!">Second Link</a>
+                    <a class="column__item" href="#!">Third Link</a>
+                    <a class="column__item" href="#!">Fourth Link</a>
+                    <a class="column__item" href="#!">Fifth Link</a>
+                </div>
+                <div class="column">
+                    <div class="column__heading">Social Media</div>
+                    <div class="column__social">
+                        <a class="column__icon" href="#!">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a class="column__icon" href="#!">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a class="column__icon" href="#!">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                        <a class="column__icon" href="#!">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a class="column__icon" href="#!">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="logo">Uranus</div>
+            <div class="copyright">2020 @ Uranus</div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/script/app.js"></script>
 </body>
 

@@ -1,0 +1,110 @@
+.footer {
+    &__top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 75px 0 90px;
+    }
+    &__bottom {
+        padding: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid #41444e;
+        .logo {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 1.8;
+        }
+        .copyright {
+            font-size: 16px;
+            font-weight: 300;
+            color: var(--text-gray);
+            line-height: 1.8;
+        }
+    }
+    &__form {
+        width: 100%;
+        max-width: 445px;
+    }
+    &__search {
+        .heading {
+            margin-bottom: 25px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1.8;
+        }
+        .group-item {
+            display: flex;
+            gap: 20px;
+            input {
+                border-radius: 10px;
+                outline: none;
+                border: none;
+                background-color: var(--background-secondary);
+                padding: 27px 25px;
+                width: 245px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1;
+                color: var(--text-gray);
+                &::placeholder {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1;
+                    color: #9fa4bc;
+                }
+            }
+        }
+        .text {
+            margin-top: 55px;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 400;
+            font-style: italic;
+            color: var(--text-gray);
+        }
+    }
+    &__router {
+        display: flex;
+        gap: 90px;
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+            &__heading {
+                line-height: 1.8;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            &__item {
+                line-height: 1.8;
+                font-size: 16px;
+                font-weight: 400;
+                color: var(--text-gray);
+            }
+            &__social {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-gap: 24px;
+            }
+            &__icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 32px;
+                height: 32px;
+                border-radius: 100rem;
+                background-color: #377dff1e;
+                transition: all 0.25s ease;
+                &:hover {
+                    transform: translateY(-5px);
+                }
+                ion-icon {
+                    color: #377dff;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
