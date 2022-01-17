@@ -121,6 +121,7 @@
     .footer {
         &__top {
             padding: 40px 0;
+            flex-direction: column;
         }
         &__bottom {
             padding: 10px 0;
@@ -133,7 +134,19 @@
             }
         }
         &__router {
-            display: none;
+            padding-top: 25px;
+            .column {
+                display: none;
+                &__heading {
+                    margin-bottom: 20px;
+                }
+                &__social {
+                    display: flex;
+                }
+            }
+            .column:last-child {
+                display: block;
+            }
         }
         &__form {
             max-width: 100%;

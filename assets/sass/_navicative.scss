@@ -81,6 +81,9 @@
 }
 @include maxW(475px) {
     #button--togle--mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 5px;
         padding: 6.5px;
         ion-icon {
