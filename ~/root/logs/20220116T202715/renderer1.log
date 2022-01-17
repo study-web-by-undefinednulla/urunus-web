@@ -1,7 +1,0 @@
-[2022-01-16 20:27:19.792] [renderer1] [error] [Extension Host] (node:79122) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `Electron --trace-deprecation ...` to show where the warning was created)
-[2022-01-16 20:28:35.940] [renderer1] [info] Settings Sync: Updated current session 5d3ea647-55e9-4168-834b-ec7ef881210f
-[2022-01-16 20:28:36.255] [renderer1] [error] [Extension Host] [ERROR] [default] [2022-01-16T13:28:36.246Z] GitHub Copilot could not connect to server. Extension activation failed: "undefined"
-[2022-01-16 20:30:03.918] [renderer1] [error] [Extension Host] (node:86505) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `Electron --trace-deprecation ...` to show where the warning was created)
-[2022-01-16 20:30:12.422] [renderer1] [error] [Extension Host] [ERROR] [default] [2022-01-16T13:30:12.309Z] GitHub Copilot could not connect to server. Extension activation failed: "User not authorized"
