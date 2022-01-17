@@ -18,4 +18,76 @@
         font-weight: 500;
         color: var(--text-light);
     }
+    &__button--mobile {
+        display: none;
+    }
+}
+@include maxW(1024px) {
+    .navication {
+        padding: 30px 0;
+    }
+}
+@include maxW(820px) {
+    .navication {
+        position: relative;
+        &__links {
+            position: absolute;
+            width: 250px;
+            height: 300px;
+            border-radius: 30px;
+            padding: 40px 30px;
+            top: 120px;
+            right: 0;
+            z-index: 100;
+            background-color: #ffffff07;
+            backdrop-filter: blur(20px);
+            transition: all 0.25s ease;
+            display: none;
+            ul {
+                width: 100%;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+            }
+        }
+        &__item {
+            a {
+                font-size: 20px;
+            }
+        }
+        &__button--mobile {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .button--togle--mobile {
+                cursor: pointer;
+                outline: none;
+                border: none;
+                padding: 13.5px;
+                border-radius: 10px;
+                background-color: #377dff1e;
+                ion-icon {
+                    color: #377dff;
+                    font-size: 40px;
+                }
+            }
+        }
+        &__button {
+            display: none;
+        }
+    }
+}
+@include maxW(475px) {
+    #button--togle--mobile {
+        border-radius: 5px;
+        padding: 6.5px;
+        ion-icon {
+            font-size: 32px;
+        }
+    }
+    .navication__button--mobile {
+        gap: 5px;
+    }
 }

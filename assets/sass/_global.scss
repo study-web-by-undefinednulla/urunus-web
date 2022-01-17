@@ -50,3 +50,21 @@ html {
     max-width: 1170px;
     margin: 0 auto;
 }
+@include maxW(1024px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+@include maxW(475px) {
+    html {
+        font-size: 12px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .button {
+        border-radius: 5px;
+        font-size: 12px;
+        padding: 18px 20px;
+    }
+}

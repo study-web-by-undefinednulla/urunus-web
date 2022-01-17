@@ -11,7 +11,10 @@ $('.newest__slider').owlCarousel({
     }
 })
 
-// $('.newest__slider').find('.owl-nav').removeClass('disabled');
-// $('.newest__slider').on('changed.owl.carousel', function (event) {
-//     $(this).find('.owl-nav').removeClass('disabled');
-// });
+// button toggle navication 
+const buttonNavication = document.getElementById('button--togle--mobile'),
+    elementLinks = document.getElementById('navication__links')
+
+buttonNavication.addEventListener('click', () => {
+    // elementLinks.
+})
